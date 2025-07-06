@@ -53,18 +53,9 @@ pip install -r requirements.txt
 # Launch the app
 streamlit run app.py
 ```
+##Project Structure
 
-uidai-grievance-assist/
-├── app.py                        # Main Streamlit Interface
-├── grievance_utils.py           # OCR / Text loaders
-├── grievance_classify.py        # NLP-based complaint classifier
-├── grievance_summarizer.py      # Complaint summarization logic
-├── grievance_urgency.py         # Urgency prediction
-├── fake_detector/
-│   └── aadhaar_utils.py         # Aadhaar forgery analysis
-├── requirements.txt
-└── README.md
-
+<pre> 📁 uidai-grievance-assist/ ├── 📄 app.py → Main Streamlit Interface (UI + Module Selector) ├── 📄 grievance_utils.py → File handling, OCR parsing (CSV, PDF, Image) ├── 📄 grievance_classify.py → Complaint classification via BART (zero-shot) ├── 📄 grievance_summarizer.py → Summarizes complaints using BART CNN ├── 📄 grievance_urgency.py → Urgency detection using emotion + sentiment ├── 📁 fake_detector/ → Aadhaar forgery detection module │ └── 📄 aadhaar_utils.py → Image tampering logic, layout checks ├── 📄 requirements.txt → All external dependencies └── 📄 README.md → Full documentation with warnings, usage, credits </pre>
 
 ## ⚠️ Caution
 
