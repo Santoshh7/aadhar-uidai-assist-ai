@@ -1,0 +1,32 @@
+# Streamlit Web Interface
+streamlit
+
+#scientific calculations
+numpy
+
+# Data Handling
+pandas
+
+# Hugging Face Transformers & NLP
+transformers
+torch
+
+# Sentiment & Emotion Analysis
+vaderSentiment
+
+# PDF Parsing
+pdfplumber
+
+# OCR
+pytesseract
+Pillow
+
+# QR Code Decoding (optional for Aadhaar)
+pyzbar
+
+# Image Processing (used in Aadhaar forgery detection)
+opencv-python
+
+# For working with filepaths (used in Aadhaar utilities)
+python-magic-bin; sys_platform == 'win32'
+python-magic; sys_platform != 'win32'
