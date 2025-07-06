@@ -92,4 +92,4 @@ Combines AI, NLP, and image forensics to improve public-facing governance system
 
 **Developed By**: **SANTOSH THAKUR**
 
-##Passionate about building AI-driven solutions for public infrastructure and digital identity security.
+Passionate about building AI-driven solutions for public infrastructure and digital identity security.
