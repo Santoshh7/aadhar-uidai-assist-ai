@@ -90,5 +90,6 @@ uidai-grievance-assist/
 🛠️ Built to demonstrate secure automation of Aadhaar grievance redressal and document fraud detection for UIDAI-like frameworks.
 Combines AI, NLP, and image forensics to improve public-facing governance systems.
 
-**Developed By**:**SANTOSH THAKUR**
-Passionate about building AI-driven solutions for public infrastructure and digital identity security.
+**Developed By**: **SANTOSH THAKUR**
+
+##Passionate about building AI-driven solutions for public infrastructure and digital identity security.
