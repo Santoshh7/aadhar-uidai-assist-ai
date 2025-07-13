@@ -69,10 +69,8 @@ The landing screen allows users to select from two core modules — Grievance Ca
 
 📁 2. Grievance Categorizer — Upload CSV
 <img width="1920" height="1020" alt="Screenshot 2025-07-06 205840" src="https://github.com/user-attachments/assets/47f4c4e0-10f0-4db1-a1ed-9e908cae6d0b" />
-<img width="550" height="300" alt="Screenshot 2025-07-06 210525" src="https://github.com/user-attachments/assets/5b76c29a-0583-4645-a105-3769cbc7cdc6" />
-<img width="500" height="300" alt="Screenshot 2025-07-06 210538" src="https://github.com/user-attachments/assets/09d544e5-8b61-4d5f-9219-61f33546f6e3" />
-<img width="500" height="300" alt="Screenshot 2025-07-06 210548" src="https://github.com/user-attachments/assets/852abb7d-2b6f-4a60-bc30-9b80b603806e" />
-
+<img width="1920" height="1020" alt="Screenshot 2025-07-06 210525" src="https://github.com/user-attachments/assets/5b76c29a-0583-4645-a105-3769cbc7cdc6" />
+<img width="1920" height="1020" alt="Screenshot 2025-07-06 210548" src="https://github.com/user-attachments/assets/852abb7d-2b6f-4a60-bc30-9b80b603806e" />
 Users can upload complaint datasets in .CSV format. The system processes each entry, categorizes the grievance type, and assigns a priority score for streamlined resolution.
 
 📄 3. Grievance Categorizer — Upload PDF
