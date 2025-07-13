@@ -67,29 +67,36 @@ The landing screen allows users to select from two core modules — Grievance Ca
 <img width="1920" height="1020" alt="Screenshot 2025-07-06 205327" src="https://github.com/user-attachments/assets/8d0bcd4d-9dd6-4b7e-9212-74ce1d50cdf0" />
 
 
+
 📁 2. Grievance Categorizer — Upload CSV
+
 <img width="1920" height="1020" alt="Screenshot 2025-07-06 205840" src="https://github.com/user-attachments/assets/47f4c4e0-10f0-4db1-a1ed-9e908cae6d0b" />
 <img width="1920" height="1020" alt="Screenshot 2025-07-06 210525" src="https://github.com/user-attachments/assets/5b76c29a-0583-4645-a105-3769cbc7cdc6" />
 <img width="1920" height="1020" alt="Screenshot 2025-07-06 210548" src="https://github.com/user-attachments/assets/852abb7d-2b6f-4a60-bc30-9b80b603806e" />
 Users can upload complaint datasets in .CSV format. The system processes each entry, categorizes the grievance type, and assigns a priority score for streamlined resolution.
 
+
 📄 3. Grievance Categorizer — Upload PDF
+
 <img width="1920" height="1020" alt="Screenshot 2025-07-06 210039" src="https://github.com/user-attachments/assets/e4e9e824-f6ee-495a-8f0e-7fe8ddf2c092" />
 For document-based submissions, users can upload Aadhaar complaint letters in .PDF format. The NLP engine extracts and analyzes content for automated classification.
 
 
 🖼️ 4. Grievance Categorizer — Upload PNG/JPG
+
 <img width="1920" height="1020" alt="Screenshot 2025-07-06 210134" src="https://github.com/user-attachments/assets/88ba7fc3-631e-44b8-ad9a-e23e92723161" />
 Complaints submitted as scanned images (JPG/PNG) are processed using OCR and NLP to extract relevant text, identify grievance types, and set urgency levels.
 
+
 🖼️ 5. Grievance Categorizer — Enter Complaint Manually
+
 <img width="1920" height="1020" alt="Screenshot 2025-07-06 210742" src="https://github.com/user-attachments/assets/a63b1f38-e85a-4cb6-92fd-7ec70fa89e84" />
 
 
 🔍 Fake Aadhaar Detector — Image Forensics
 This module helps verify the authenticity of uploaded Aadhaar card images using advanced forensics like OCR validation, metadata checks, and Error Level Analysis (ELA). It generates a detailed report highlighting anomalies and assigning a tampering confidence score.
-
 🧭 Module Interface — Aadhaar Forgery Detection
+
 <img width="1920" height="1020" alt="Screenshot 2025-07-06 210817" src="https://github.com/user-attachments/assets/720af524-4d02-45b5-be7d-c20d525b1c2d" />
 Users can upload .JPG, .JPEG, or .PNG images of Aadhaar cards. The system scans the image, applies forensic techniques, and generates a real-time Detection Report indicating whether the document is genuine or tampered.
 
@@ -108,9 +115,10 @@ The uploaded image was a completely fake Aadhaar structure. The system flagged t
 
 ❌ Final Label: Tampered
 
-✅ Test Case 2 — Valid Format Only (Suspicious)
-<img width="1920" height="1020" alt="Screenshot 2025-07-06 210913" src="https://github.com/user-attachments/assets/869910e8-6222-44d7-b8e9-7c87628eff01" />
 
+✅ Test Case 2 — Valid Format Only (Suspicious)
+
+<img width="1920" height="1020" alt="Screenshot 2025-07-06 210913" src="https://github.com/user-attachments/assets/869910e8-6222-44d7-b8e9-7c87628eff01" />
 This Aadhaar image had a valid EXIF Metadata but failed in other verification aspects:
 
 ❌ OCR: Detected incorrect Aadhaar number format
@@ -125,6 +133,7 @@ This Aadhaar image had a valid EXIF Metadata but failed in other verification as
 
 
 🟢 Test Case 3 — Genuine Aadhaar Detected
+
 <img width="1920" height="1020" alt="Screenshot 2025-07-06 210928" src="https://github.com/user-attachments/assets/258f3d3d-0d32-48a5-8350-5f2d873587c9" />
 
 The uploaded Aadhaar card was authentic. All checks passed:
@@ -138,9 +147,6 @@ The uploaded Aadhaar card was authentic. All checks passed:
 🔼 Confidence Score: 100%
 
 ✅ Final Label: Genuine
-
-
-
 
 
 
