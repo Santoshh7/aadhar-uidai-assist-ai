@@ -57,6 +57,9 @@ streamlit run app.py
 
 <pre> 📁 uidai-grievance-assist/ ├── 📄 app.py → Main Streamlit Interface (UI + Module Selector) ├── 📄 grievance_utils.py → File handling, OCR parsing (CSV, PDF, Image) ├── 📄 grievance_classify.py → Complaint classification via BART (zero-shot) ├── 📄 grievance_summarizer.py → Summarizes complaints using BART CNN ├── 📄 grievance_urgency.py → Urgency detection using emotion + sentiment ├── 📁 fake_detector/ → Aadhaar forgery detection module │ └── 📄 aadhaar_utils.py → Image tampering logic, layout checks ├── 📄 requirements.txt → All external dependencies └── 📄 README.md → Full documentation with warnings, usage, credits </pre>
 
+<img width="1920" height="1020" alt="Screenshot 2025-07-06 205327" src="https://github.com/user-attachments/assets/7a1ac124-c9f9-4f9a-a378-4e324f96cf6e" />
+
+
 ## ⚠️ Caution
 
 > ❗ **This tool is strictly intended for academic, testing, and demonstration purposes only.**
